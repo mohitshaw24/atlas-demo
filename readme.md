@@ -30,3 +30,21 @@ Using free-tier models (Groq, Gemini Flash) kept costs minimal (~$0.05-0.10 per 
 
 **Conclusion:**
 The pipeline meets all OneAtlas requirements: multi-stage generation, validation/repair, integration support, real-time UI, and comprehensive evaluation. The 91.7% success rate with sub-2-minute average latency demonstrates production readiness.
+
+# OneAtlas AI Pipeline
+
+Multi-stage AppSpec generator with validation, repair, and multi-provider AI fallback. Built for the OneAtlas AI Engineer Trial.
+
+
+# Clone & Install
+git clone https://github.com/mohitshaw24/atlas-demo.git
+cd atlas-demo
+npm install
+
+# Run Server
+npm run dev
+Open http://localhost:3000 in your browser.
+
+#  Generates evaluation-log.json with results from 12 prompts.
+npx tsx scripts/eval.ts
+
