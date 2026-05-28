@@ -36,46 +36,14 @@ The pipeline meets all OneAtlas requirements: multi-stage generation, validation
 Multi-stage AppSpec generator with validation, repair, and multi-provider AI fallback. Built for the OneAtlas AI Engineer Trial.
 
 
-# Clone & Install
+**Clone & Install**
 git clone https://github.com/mohitshaw24/atlas-demo.git
 cd atlas-demo
 npm install
 
-# Run Server
+**Run Server**
 npm run dev
 Open http://localhost:3000 in your browser.
 
-#  Generates evaluation-log.json with results from 12 prompts.
+**Generates evaluation-log.json with results from 12 prompts**
 npx tsx scripts/eval.ts
-
-# Pipeline Architecture
-*3-Stage Generation*
-
-
-User Prompt
-     │
-     ▼
-┌─────────────────┐
-│ Stage 1: Intent │ → Groq (llama-3.1-8b-instant)
-│ - Extract app   │ → Output: AppIntent schema
-│   name, entities│
-│ - Identify      │
-│   integrations  │
-└────────┬────────┘
-         │
-         ▼
-┌─────────────────┐
-│ Stage 2: Schema │ → Gemini (gemini-flash-latest)
-│ - Generate DB   │ → Output: DataSchema with
-│   tables/fields │   validation
-│ - Define        │
-│   relationships │
-└────────┬────────┘
-         │
-         ▼
-┌─────────────────┐
-│ Stage 3: AppSpec│ → DeepSeek via OpenRouter
-│ - Create UI     │ → Output: Complete AppSpec
-│   views &       │   with integration hooks
-│   workflows     │
-└─────────────────┘
