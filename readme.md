@@ -37,13 +37,13 @@ Multi-stage AppSpec generator with validation, repair, and multi-provider AI fal
 
 
 **Clone & Install**
-git clone https://github.com/mohitshaw24/atlas-demo.git
-cd atlas-demo
-npm install
+- git clone https://github.com/mohitshaw24/atlas-demo.git
+- cd atlas-demo
+-npm install
 
 **Run Server**
-npm run dev
-Open http://localhost:3000 in your browser.
+-npm run dev
+-Open http://localhost:3000 in your browser.
 
 **Generates evaluation-log.json with results from 12 prompts**
-npx tsx scripts/eval.ts
+-npx tsx scripts/eval.ts
