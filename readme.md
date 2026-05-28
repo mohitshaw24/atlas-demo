@@ -42,8 +42,8 @@ Multi-stage AppSpec generator with validation, repair, and multi-provider AI fal
 -npm install
 
 **Run Server**
--npm run dev
--Open http://localhost:3000 in your browser.
+- npm run dev
+- Open http://localhost:3000 in your browser.
 
 **Generates evaluation-log.json with results from 12 prompts**
--npx tsx scripts/eval.ts
+- npx tsx scripts/eval.ts
