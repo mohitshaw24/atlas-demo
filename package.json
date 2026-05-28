@@ -1,0 +1,30 @@
+{
+  "name": "my-atlas-project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "eval": "ts-node --project tsconfig.json scripts/eval.ts"
+  },
+  "dependencies": {
+    "@google/generative-ai": "latest",
+    "next": "^14.2.0",
+    "openai": "latest",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "zod": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "25.9.1",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "autoprefixer": "latest",
+    "postcss": "latest",
+    "tailwindcss": "latest",
+    "ts-node": "^10.9.2",
+    "typescript": "6.0.3"
+  }
+}

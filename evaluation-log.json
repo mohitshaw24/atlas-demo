@@ -1,0 +1,175 @@
+{
+  "evaluationMetadata": {
+    "totalPrompts": 12,
+    "successfulRuns": 11,
+    "failedRuns": 1,
+    "averageLatencyMs": 74584,
+    "completedAt": "2026-05-28T08:38:52.969Z"
+  },
+  "results": [
+    {
+      "prompt": "A task management app for remote teams with Slack notifications.",
+      "success": true,
+      "stagesCompleted": [
+        "Stage 1",
+        "Stage 2",
+        "Stage 3",
+        "System"
+      ],
+      "validationIssues": 0,
+      "repairAttempts": 0,
+      "latencyMs": 93847,
+      "timestamp": "2026-05-28T08:25:31.448Z"
+    },
+    {
+      "prompt": "An e-commerce platform for handmade goods with Stripe payments.",
+      "success": true,
+      "stagesCompleted": [
+        "Stage 1",
+        "Stage 2",
+        "Stage 3",
+        "System"
+      ],
+      "validationIssues": 0,
+      "repairAttempts": 0,
+      "latencyMs": 87730,
+      "timestamp": "2026-05-28T08:26:59.537Z"
+    },
+    {
+      "prompt": "A fitness tracking app that syncs with wearables.",
+      "success": true,
+      "stagesCompleted": [
+        "Stage 1",
+        "Stage 2",
+        "Stage 3",
+        "System"
+      ],
+      "validationIssues": 0,
+      "repairAttempts": 0,
+      "latencyMs": 66626,
+      "timestamp": "2026-05-28T08:28:06.164Z"
+    },
+    {
+      "prompt": "A customer support ticketing system with Jira integration.",
+      "success": true,
+      "stagesCompleted": [
+        "Stage 1",
+        "Stage 2",
+        "Stage 3",
+        "System"
+      ],
+      "validationIssues": 0,
+      "repairAttempts": 0,
+      "latencyMs": 69146,
+      "timestamp": "2026-05-28T08:29:15.311Z"
+    },
+    {
+      "prompt": "A content calendar for social media managers.",
+      "success": true,
+      "stagesCompleted": [
+        "Stage 1",
+        "Stage 2",
+        "Stage 3",
+        "System"
+      ],
+      "validationIssues": 0,
+      "repairAttempts": 0,
+      "latencyMs": 86487,
+      "timestamp": "2026-05-28T08:30:41.799Z"
+    },
+    {
+      "prompt": "A booking system for consultants with Twilio SMS.",
+      "success": true,
+      "stagesCompleted": [
+        "Stage 1",
+        "Stage 2",
+        "Stage 3",
+        "System"
+      ],
+      "validationIssues": 0,
+      "repairAttempts": 0,
+      "latencyMs": 94469,
+      "timestamp": "2026-05-28T08:32:16.269Z"
+    },
+    {
+      "prompt": "A learning management system with progress tracking.",
+      "success": true,
+      "stagesCompleted": [
+        "Stage 1",
+        "Stage 2",
+        "Stage 3",
+        "System"
+      ],
+      "validationIssues": 0,
+      "repairAttempts": 0,
+      "latencyMs": 56995,
+      "timestamp": "2026-05-28T08:33:13.264Z"
+    },
+    {
+      "prompt": "",
+      "success": false,
+      "stagesCompleted": [],
+      "validationIssues": 0,
+      "repairAttempts": 0,
+      "error": "HTTP 400",
+      "latencyMs": 13,
+      "timestamp": "2026-05-28T08:33:13.277Z"
+    },
+    {
+      "prompt": "Build me an app.",
+      "success": true,
+      "stagesCompleted": [
+        "Stage 1",
+        "Stage 2",
+        "Stage 3",
+        "System"
+      ],
+      "validationIssues": 0,
+      "repairAttempts": 0,
+      "latencyMs": 80914,
+      "timestamp": "2026-05-28T08:34:34.191Z"
+    },
+    {
+      "prompt": "I need an app that does everything for everyone everywhere all the time.",
+      "success": true,
+      "stagesCompleted": [
+        "Stage 1",
+        "Stage 2",
+        "Stage 3",
+        "System"
+      ],
+      "validationIssues": 0,
+      "repairAttempts": 0,
+      "latencyMs": 106770,
+      "timestamp": "2026-05-28T08:36:20.962Z"
+    },
+    {
+      "prompt": "Create a blockchain-based quantum AI social network for cats.",
+      "success": true,
+      "stagesCompleted": [
+        "Stage 1",
+        "Stage 2",
+        "Stage 3",
+        "System"
+      ],
+      "validationIssues": 0,
+      "repairAttempts": 0,
+      "latencyMs": 71971,
+      "timestamp": "2026-05-28T08:37:32.934Z"
+    },
+    {
+      "prompt": "Make an app that violates GDPR.",
+      "success": true,
+      "stagesCompleted": [
+        "Stage 1",
+        "Stage 2",
+        "Stage 3",
+        "System"
+      ],
+      "validationIssues": 0,
+      "repairAttempts": 0,
+      "latencyMs": 80034,
+      "timestamp": "2026-05-28T08:38:52.968Z"
+    }
+  ]
+}
