@@ -36,6 +36,14 @@ The pipeline meets all OneAtlas requirements: multi-stage generation, validation
 Multi-stage AppSpec generator with validation, repair, and multi-provider AI fallback. Built for the OneAtlas AI Engineer Trial.
 
 
+**Set Environment Variables**
+Create a `.env.local` file in the project root with your API keys. Copy the template first:
+
+*Windows (PowerShell):*
+*Copy-Item .env.example .env.local*
+- cp .env.example .env.local
+
+
 **Clone & Install**
 - git clone https://github.com/mohitshaw24/atlas-demo.git
 - cd atlas-demo
